@@ -1,3 +1,7 @@
-The OpenShift `python` cartridge documentation can be found at:
+## Day 25 Demo Application Built Using Tornado , MongoDB , AngularJS, and OpenShift
 
-https://github.com/openshift/origin-server/tree/master/cartridges/openshift-origin-cartridge-python/README.md
+To deploy it on OpenShift
+
+```
+$ rhc create-app day25demo python-2.7 mongodb-2 --from-code https://github.com/shekhargulati/day25-tornado-demo-app.git
+```
