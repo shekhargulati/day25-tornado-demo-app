@@ -1,0 +1,11 @@
+<h2>
+	Stories <a class="btn btn-primary pull-right" href="#/stories/new"><i
+		class="icon-plus-sign icon-white"></i> Submit New Story</a>
+</h2>
+
+<table class="table table-striped">
+	<tr ng-repeat="story in stories">
+		<td><a href="#/stories/{{story._id.$oid}}">{{story.title}}</a></td>
+		<td>{{story.fullname}}</td>
+	</tr>
+</table>

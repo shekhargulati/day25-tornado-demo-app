@@ -1,0 +1,23 @@
+<form novalidate class="form-horizontal" ng-submit="save()">
+	<div class="control-group">
+		<label class="control-label" for="url">Url</label>
+		<div class="controls">
+			<input type="url" ng-model="story.url" id="url" required/>
+		</div>
+	</div>
+	<div class="control-group">
+		<label class="control-label" for="title">Title</label>
+		<div class="controls">
+			<input type="text" ng-model="story.title" id="title" required/>
+		</div>
+	</div>
+	<div class="control-group">
+		<label class="control-label" for="firstName">Full Name</label>
+		<div class="controls">
+			<input type="text" ng-model="story.fullname" id="fullname" required/>
+		</div>
+	</div>
+	<div class="control-group">
+		<button id="save" class="btn btn-primary">Submit Story</button>
+	</div>
+</form>
